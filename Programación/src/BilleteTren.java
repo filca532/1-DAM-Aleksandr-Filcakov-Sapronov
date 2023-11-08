@@ -48,7 +48,7 @@ public class BilleteTren {
         if ("s".equalsIgnoreCase(tarjeta)){
             double precioTotal = precioBillete - (precioBillete * 0.25);
             System.out.printf("%s","Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
-                    " tiene un descuento de un 25% y con un precio final de " + (df.format(precioTotal)) + "€");
+                    " tiene un descuento de un 25% y con un precio final de " + (df.format(precioTotal)) + "€ ");
         } else if (precioBillete > 110) {
             double precioTotal = precioBillete - (precioBillete * 0.10);
             System.out.printf("%s","Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
