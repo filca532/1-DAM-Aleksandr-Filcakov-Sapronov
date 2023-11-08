@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Inscripción</title>
+</head>
+<body>
+<h1>Formulario Inscripción</h1>
+<form>
+	<fieldset>
+		<legend>Datos Personales</legend>
+		<label for="nombre">Nombre</label><br/>
+		<input type="text" id="nombre" name="nombre"><br/>
+		<label for="apellidos">Apellidos</label><br/>
+		<input type="text" id="apellidos" name="apellidos"><br/>
+		<label for="dni">DNI</label><br/>
+		<input type="text" id="dni" name="dni" size="9" maxlength="9"><br/><br/>
+		<label>Sexo</label><br/>
+		<input type="radio" id="hombre" name="sexo">
+		<label for="hombre">Hombre</label><br/>
+		<input type="radio" id="mujer" name="sexo" checked="checked">
+		<label for="mujer">Mujer</label><br/>
+		<label for="archivo">Subir foto</label>
+		<input type="file" id="archivo" name="archivo"><br/>
+		<input type="checkbox" id="boletin" name="boletin">
+		<label for="boletin">Subscribirse al boletín de novedades</label>
+	</fieldset>
+	<br/>
+	<fieldset>
+		<legend>Datos de usuario</legend>
+		<label for="nombre_usuario">Nombre de usuario</label><br/>
+		<input type="text" id="nombre_usuario" name="nombre_usuario" maxlength="10"><br/>
+		<label for="contraseña1">Contraseña</label><br/>
+		<input type="password" id="contraseña1" name="contraseña1" maxlength="10"><br/>
+		<label for="contraseña2">Repite la contraseña</label><br/>
+		<input type="password" id="contraseña2" name="contraseña1" maxlength="10"><br/><br/>
+		<input type="button" value="Guardar Cambios">&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="Borrar Datos">
+	</fieldset>
+</form>
+</body>
+</html>
