@@ -14,12 +14,12 @@ public class EncuentraLaLetra {
 
         int contador;
 
-        for(contador = 0; aparicion != -1; contador++) {
+        for (contador = 0; aparicion != -1; contador++) {
 
             aparicion = frase.indexOf(letraCadena, aparicion + 1);
 
         }
 
-        System.out.println("La letra " + letraCadena + " aparace un total de " + contador + (contador == 0? " veces": contador == 1? " vez": " veces"));
+        System.out.println("La letra " + letraCadena + " aparace un total de " + contador + (contador == 0 ? " veces" : contador == 1 ? " vez" : " veces"));
     }
 }

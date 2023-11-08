@@ -2,10 +2,12 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class BilleteTren {
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Billetes();
     }
-    public static void Billetes(){
+
+    public static void Billetes() {
         Scanner sc = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat(".00");
 
@@ -45,20 +47,20 @@ public class BilleteTren {
 
         String b = billete == 1 ? "sencillo" : " ida y vuelta";
 
-        if ("s".equalsIgnoreCase(tarjeta)){
+        if ("s".equalsIgnoreCase(tarjeta)) {
             double precioTotal = precioBillete - (precioBillete * 0.25);
-            System.out.printf("%s","Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
+            System.out.printf("%s", "Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
                     " tiene un descuento de un 25% y con un precio final de " + (df.format(precioTotal)) + "€ ");
         } else if (precioBillete > 110) {
             double precioTotal = precioBillete - (precioBillete * 0.10);
-            System.out.printf("%s","Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
+            System.out.printf("%s", "Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
                     " tiene un descuento de un 10% y con un precio final de " + (df.format(precioTotal)) + "€");
         } else if (precioBillete > 50) {
             double precioTotal = precioBillete - (precioBillete * 0.05);
-            System.out.printf("%s","Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
+            System.out.printf("%s", "Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
                     " tiene un descuento de un 5% y con un precio final de " + (df.format(precioTotal)) + "€");
         } else {
-            System.out.printf("%s","Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
+            System.out.printf("%s", "Su precio de billete " + (billete == 1 ? "sencillo" : " ida y vuelta") +
                     " es de " + (df.format(precioBillete)) + "€");
         }
     }

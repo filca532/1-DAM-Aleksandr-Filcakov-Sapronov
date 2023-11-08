@@ -18,6 +18,6 @@ public class DiasSemana {
                 : numero == 7 ? "es el domingo"
                 : "no es un día valido";
 
-                System.out.println("El día de la semana indicado " + dia);
+        System.out.println("El día de la semana indicado " + dia);
     }
 }

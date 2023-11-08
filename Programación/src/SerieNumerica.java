@@ -2,7 +2,7 @@ import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
 
 public class SerieNumerica {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Introduzca el numero que quiera saber la suma de la serie numerica: ");
@@ -14,13 +14,13 @@ public class SerieNumerica {
 
         System.out.print(suma);
 
-        if(numSerie < 11){
+        if (numSerie < 11) {
             System.out.println("Introduce un  numero mayor que 10");
         } else {
-            for(int contador = 0; contador < numSerie; ++contador){
+            for (int contador = 0; contador < numSerie; ++contador) {
                 sumaTotal = suma + sumaTotal;
 
-                if(contador != (numSerie - 1)) {
+                if (contador != (numSerie - 1)) {
                     suma = suma + sumando;
                     System.out.print(" + " + suma);
                 }

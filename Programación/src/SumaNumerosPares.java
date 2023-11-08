@@ -13,7 +13,7 @@ public class SumaNumerosPares {
         int num2 = sc.nextInt();
 
         for (int i = num1; i <= num2; i++) {
-            if (i % 2 == 0){
+            if (i % 2 == 0) {
                 par = i + par;
             }
         }

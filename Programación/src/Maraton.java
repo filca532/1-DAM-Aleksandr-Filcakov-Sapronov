@@ -20,7 +20,7 @@ public class Maraton {
                 if (((edad <= 35) && (min < 190)) || (edad > 35) && (min < 225)) {
 
                     System.out.println("Persona seleccionada");
-                    
+
                 } else {
 
                     System.out.println("No seleccionado");
@@ -33,5 +33,5 @@ public class Maraton {
         } else {
             System.out.println("No puede participar");
         }
-    }    
+    }
 }

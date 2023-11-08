@@ -9,7 +9,7 @@ public class ECO {
         do {
             eco = sc.nextLine();
             System.out.println("Ha introducido: " + eco);
-        } while(eco.compareToIgnoreCase("salir") != 0);
+        } while (eco.compareToIgnoreCase("salir") != 0);
 
         System.out.println("Saliendo");
     }
