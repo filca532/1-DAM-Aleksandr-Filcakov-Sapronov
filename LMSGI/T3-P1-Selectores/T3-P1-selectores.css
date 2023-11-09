@@ -1,0 +1,41 @@
+/* Estilizar todos los párrafos en la página */
+  /*****/ {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilizar los encabezados h1 y h2 en el contenido principal */
+  /*****/ {
+    color: #336699;
+  }
+  
+  /* Estilizar todos los enlaces en la página */
+  /*****/ {
+    text-decoration: none;
+    color: #CC3300;
+  }
+  
+  /* Estilizar la lista no ordenada dentro del div "lista" */
+  /*****/ {
+    list-style-type: square;
+  }
+  
+  /* Estilizar los elementos "li" dentro de la lista con clase "destacado" */
+  /*****/ {
+    font-weight: bold;
+  }
+  
+  /* Estilizar el elemento "button" */
+  /*****/ {
+    background-color: #FF9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  /* Estilizar el elemento "button" cuando se pasa el puntero por encima */
+  /*****/ {
+    background-color: #CC3300;
+    color: white;
+  }

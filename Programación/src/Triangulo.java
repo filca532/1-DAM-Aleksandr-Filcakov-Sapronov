@@ -13,7 +13,7 @@ public class Triangulo {
             for (int vecesAparece = 0; vecesAparece < i; vecesAparece++) {
                 System.out.print(asterisco);
             }
-                System.out.println(" ");
+            System.out.println(" ");
         }
     }
 }
