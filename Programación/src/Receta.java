@@ -45,7 +45,7 @@ public class Receta {
         System.out.println("La receta para " + personas + (personas == 1 ? " persona" : " personas") + " es: \n" +
                 "coliflor: " + (df.format(coliflor)) + "g \n" +
                 "cebolla: " + (df.format(cebolla)) + (cebolla > 1 ? " cebollas" : " cebolla") + "\n" +
-                "zanahoria: " + Math.ceil(zanahoria) + (zanahoria > 1 ? " zanahorias" : " zanahoria") + "\n" +
+                "zanahoria: " + (df.format(Math.ceil(zanahoria))) + (zanahoria > 1 ? " zanahorias" : " zanahoria") + "\n" +
                 "pollo: " + (df.format(pollo)) + "g \n" +
                 "piñones: " + (df.format(pinyones)) + "g \n" +
                 "pasas: " + pasas + "g \n" +

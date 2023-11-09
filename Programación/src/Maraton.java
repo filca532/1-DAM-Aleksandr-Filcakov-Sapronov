@@ -7,7 +7,7 @@ public class Maraton {
         System.out.print("Indique su edad: ");
         int edad = sc.nextInt();
 
-        if (edad >= 18) {
+        if (edad >= 18 && edad < 100) {
 
             System.out.print("Ha corrido alguna maraton alguna vez? Indique Si o No: ");
             String confirmacion = sc.next();
@@ -17,7 +17,7 @@ public class Maraton {
                 System.out.print("Indique cuantos minutos tardo en completar la carrera: ");
                 int min = sc.nextInt();
 
-                if (((edad <= 35) && (min < 190)) || (edad > 35) && (min < 225)) {
+                if (((edad <= 35) && (min < 190)) || ((edad > 35) && (min < 225))) {
 
                     System.out.println("Persona seleccionada");
 
