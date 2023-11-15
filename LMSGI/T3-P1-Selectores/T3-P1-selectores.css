@@ -1,32 +1,32 @@
 /* Estilizar todos los párrafos en la página */
-  /*****/ {
+  /*****/ p {
     font-size: 16px;
     line-height: 1.5;
   }
   
   /* Estilizar los encabezados h1 y h2 en el contenido principal */
-  /*****/ {
+  /*****/ main h2, main h1 {
     color: #336699;
   }
   
   /* Estilizar todos los enlaces en la página */
-  /*****/ {
+  /*****/ a {
     text-decoration: none;
     color: #CC3300;
   }
   
   /* Estilizar la lista no ordenada dentro del div "lista" */
-  /*****/ {
+  /*****/ ul {
     list-style-type: square;
   }
   
   /* Estilizar los elementos "li" dentro de la lista con clase "destacado" */
-  /*****/ {
+  /*****/ li {
     font-weight: bold;
   }
   
   /* Estilizar el elemento "button" */
-  /*****/ {
+  /*****/ button {
     background-color: #FF9900;
     color: #fff;
     border: none;
@@ -35,7 +35,7 @@
     cursor: pointer;
   }
   /* Estilizar el elemento "button" cuando se pasa el puntero por encima */
-  /*****/ {
+  /*****/ button:hover {
     background-color: #CC3300;
     color: white;
   }

@@ -7,6 +7,7 @@ public class ECO {
         String eco = "";
 
         do {
+            System.out.print("Introduzca la frase: ");
             eco = sc.nextLine();
             System.out.println("Ha introducido: " + eco);
         } while (eco.compareToIgnoreCase("salir") != 0);
