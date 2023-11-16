@@ -1,0 +1,40 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: url("background-1637197_1280.jpg");
+    background-size: 50%;
+}
+
+section div {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #0077CC;
+    background: #e6f7ff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+section div:hover {
+    background: #cce5ff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+header, footer {
+    opacity: 0.5;
+}
