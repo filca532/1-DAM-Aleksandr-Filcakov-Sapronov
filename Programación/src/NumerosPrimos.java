@@ -25,8 +25,12 @@ public class NumerosPrimos {
                 System.out.println("El numero " + num + " es compuesto \n");
             } else if ((num % 5) == 0 && num != 5) {
                 System.out.println("El numero " + num + " es compuesto \n");
+            } else if ((num % 7) == 0 && num != 7) {
+                System.out.println("El numero " + num + " es compuesto \n");
+            } else if ((num % 11) == 0 && num != 11) {
+                System.out.println("El numero " + num + " es compuesto \n");
             } else {
-                System.out.println("El numero " + num + " es primo \n");
+                System.out.println("El numero " + num + " es primo");
             }
 
             System.out.print("Quiere comprobar otro numero? (S/N) ");
