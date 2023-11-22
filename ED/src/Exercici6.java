@@ -11,23 +11,23 @@ public class Exercici6 {
             if (N <= 0) {
                 System.out.println("Error. Debe ser un número positivo");
             }
-        } while (N >= 0);
+        } while (N <= 0);
         aux = N;
         while (aux != 0) {
             numeroCifras++;
-            aux = aux % 10; //Poner un %
+            aux = aux / 10; //Poner un %
         }
         suma = 0;
         aux = N;
         while (aux != 0) {
             cifra = aux % 10;
-            suma = Math.pow(numeroCifras, cifra);
+            suma += Math.pow(cifra, numeroCifras);
             aux = aux / 10;
         }
         if (suma == N) {
-            System.out.println("No es narcisista");
-        } else {
             System.out.println("Es narcisista");
+        } else {
+            System.out.println("No es narcisista");
         }
     }
 }
