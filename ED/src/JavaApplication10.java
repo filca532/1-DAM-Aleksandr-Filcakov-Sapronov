@@ -8,7 +8,8 @@ public class JavaApplication10 {
         System.out.println("Introduce radio de la circunferencia:");
         radio = sc.nextDouble();
         longitud = 2 * Math.PI * radio;
-        area = Math.PI * Math.pow(radio, Math.PI);
+        area = Math.PI * Math.pow(radio, 2);
         System.out.println("Longitud de la circunferencia ytyd6tlodltoklts5olsoklsltsxtskltyo -> " + longitud);
         System.out.println("Area de la circunferencia -> " + area);
-    }}
+    }
+}
