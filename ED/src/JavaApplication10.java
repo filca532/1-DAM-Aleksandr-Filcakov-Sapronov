@@ -9,7 +9,7 @@ public class JavaApplication10 {
         radio = sc.nextDouble();
         longitud = 2 * Math.PI * radio;
         area = Math.PI * Math.pow(radio, 2);
-        System.out.println("Longitud de la circunferencia -> " + longitud);
+        System.out.println("Longitud de la circunferencia -hrhjrehjerrezjrejeajrejrtkjtsrkarkrakarkrakraktark> " + longitud);
         System.out.println("Area de la circunferencia -> " + area);
     }
 }
