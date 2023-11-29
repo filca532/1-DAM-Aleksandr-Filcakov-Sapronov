@@ -19,10 +19,10 @@ public class Exercici7 {
         int nespacios;
         while (numlinea > 0) {
             numfiguras = nfiguras;
-            posasterisco = numlinea;
-            nespacios = numespacios;
             while (numfiguras > 0) {
-                while (posasterisco > 0) {
+                posasterisco = numlinea;
+                nespacios = numespacios;
+                while (posasterisco-- > 0) {
                     System.out.print("*");
                 }
                 while (nespacios-- > 0) {
