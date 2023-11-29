@@ -10,17 +10,17 @@ public class Exercici5 {
 
 
         System.out.println("Lectura de los elementos del array: ");
-        for (i = 0; i <= 10; i++) {
+        for (i = 0; i < 10; i++) {
             System.out.print("numeros[" + i + "]= ");
-            numeros[i++]=sc.nextInt();
+            numeros[i]=sc.nextInt();
         }
         for (i = 0; i < 10; i++) {
             if (numeros[i] > 0){
                 sumaPos += numeros[i];
-                neg++;
+                pos++;
             } else if (numeros[i] < 0){
                 sumaNeg += numeros[i];
-                pos++;
+                neg++;
             }
         }
         //Calcular y mostrar las medias
