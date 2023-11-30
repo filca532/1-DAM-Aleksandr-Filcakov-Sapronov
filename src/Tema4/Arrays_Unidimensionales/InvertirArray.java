@@ -1,4 +1,4 @@
-package Tema4.Arrays_Multimensionales;
+package Tema4.Arrays_Unidimensionales;
 
 public class InvertirArray {
     public static void main(String[] args) {

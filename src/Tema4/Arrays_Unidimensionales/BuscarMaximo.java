@@ -1,12 +1,12 @@
-package Tema4.Arrays_Multimensionales;
+package Tema4.Arrays_Unidimensionales;
 
 import java.util.Scanner;
 
-public class SumaDeElementos {
+public class BuscarMaximo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Cuantos numeros quieres sumar: ");
+        System.out.print("Indique la cantidad de numeros que quiera comprobar: ");
         int cantidadNum = sc.nextInt();
 
         int[] cadenaNum = new int[cantidadNum];
@@ -16,11 +16,11 @@ public class SumaDeElementos {
             cadenaNum[i] = sc.nextInt();
         }
 
-        int suma = 0;
+        int maximo = cadenaNum[0];
         for (int j : cadenaNum) {
-            suma += j;
+            maximo = Math.max(maximo, j);
         }
 
-        System.out.println("La suma de todos los numeros es: " + suma);
+        System.out.println("El numero maximo es el " + maximo);
     }
 }

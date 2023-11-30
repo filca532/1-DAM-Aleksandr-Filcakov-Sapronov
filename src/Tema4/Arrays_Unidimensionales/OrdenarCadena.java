@@ -1,4 +1,4 @@
-package Tema4.Arrays_Multimensionales;
+package Tema4.Arrays_Unidimensionales;
 
 import java.util.Arrays;
 import java.util.Scanner;
