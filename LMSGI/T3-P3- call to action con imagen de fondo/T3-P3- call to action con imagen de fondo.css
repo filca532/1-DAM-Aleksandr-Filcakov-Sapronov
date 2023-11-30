@@ -1,0 +1,19 @@
+.cta-container {background-image: url("fondo-acuarela-pintada-mano-forma-cielo-nubes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px;
+}
+
+.cta-text {font-size: 28px;
+    font-weight: bold;
+}
+
+.cta-button {background: #626bb2;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
