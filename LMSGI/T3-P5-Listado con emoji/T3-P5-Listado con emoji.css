@@ -1,0 +1,17 @@
+body { text-align: center;
+    font-family: Arial, serif;
+}
+
+h1 {color: blue;
+    font-size: 25px;
+}
+
+.emoji-list {list-style-type: none;
+}
+
+.emoji-list > li {margin-bottom: 15px;
+     }
+
+.emoji-list > li::before {content:"😻";
+    margin-right: 10px;
+}
